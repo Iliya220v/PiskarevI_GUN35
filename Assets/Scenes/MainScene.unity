@@ -1190,6 +1190,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 347807648665690611, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: bd9566abdbf08834281bfb4ea8b92a5d, type: 3}
+    - target: {fileID: 347807648665690611, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4711493821798604372, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
       propertyPath: m_Depth
       value: 0
@@ -1249,6 +1257,10 @@ PrefabInstance:
     - target: {fileID: 8377535160646413925, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9038303645556890530, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_Mass
+      value: 3000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
