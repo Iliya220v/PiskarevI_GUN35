@@ -1083,7 +1083,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7835423104840869737, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: field of view
-      value: 100
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 7835423104840869737, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: m_CullingMask.m_Bits
@@ -1099,19 +1099,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8750718406982268763, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.997731
+      value: 0.99995345
       objectReference: {fileID: 0}
     - target: {fileID: 8750718406982268763, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06732721
+      value: 0.009650424
       objectReference: {fileID: 0}
     - target: {fileID: 8750718406982268763, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000014982422
+      value: -0.00000017542136
       objectReference: {fileID: 0}
     - target: {fileID: 8750718406982268763, guid: 4f497ba3fcaf2cb419c3489bf8b3ff1e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000101101865
+      value: 0.0000000016929694
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1126,9 +1126,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4253622039417993035, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 5096562427806656668, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
       propertyPath: m_Name
       value: Tank
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286668488672473198, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.99995345
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286668488672473198, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.009650402
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286668488672473198, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.000000012508276
+      objectReference: {fileID: 0}
+    - target: {fileID: 5286668488672473198, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -1.2071576e-10
       objectReference: {fileID: 0}
     - target: {fileID: 8377535160646413925, guid: f2a590455ff3f9a4cbefd2dc94c18a4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1248,6 +1268,18 @@ PrefabInstance:
     - target: {fileID: 2558138451635086442, guid: bf7f025a196dab34b8322cf3e741a570, type: 3}
       propertyPath: m_Name
       value: Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 2558138451635086442, guid: bf7f025a196dab34b8322cf3e741a570, type: 3}
+      propertyPath: m_TagString
+      value: Respawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7542190143278566129, guid: bf7f025a196dab34b8322cf3e741a570, type: 3}
+      propertyPath: m_Radius
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7916080771215871558, guid: bf7f025a196dab34b8322cf3e741a570, type: 3}
+      propertyPath: m_Mass
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 8779109285093884924, guid: bf7f025a196dab34b8322cf3e741a570, type: 3}
       propertyPath: m_LocalPosition.x

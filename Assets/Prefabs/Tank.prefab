@@ -664,10 +664,10 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 1
-  m_LookAt: {fileID: 4588768621339191835}
+  m_LookAt: {fileID: 5941608643951675472}
   m_Follow: {fileID: 8377535160646413925}
   m_Lens:
-    FieldOfView: 100
+    FieldOfView: 40
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
